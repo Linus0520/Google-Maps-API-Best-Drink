@@ -4,7 +4,7 @@ $dom = new DOMDocument("1.0");
 $node = $dom->createElement("markers");
 $parnode = $dom->appendChild($node);
 
-$db = new PDO('mysql:host=db674484383.db.1and1.com; dbname=db674484383; charset=utf8', 'dbo674484383', 'Woaixiaotu520@@');
+$db = new PDO('mysql:host=; dbname=; charset=utf8', '', '');
     $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     $db->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
 
